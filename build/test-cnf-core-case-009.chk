@@ -15,5 +15,5 @@
 [dimocheck] partial model checking (without '--complete' nor '--pedantic')
 [dimocheck] checked all 8 clauses to be satisfied by model
 s MODEL_SATISFIES_FORMULA
-[dimocheck] maximum resident-set size 1.50 MB (1572864 bytes)
+[dimocheck] maximum resident-set size 1.75 MB (1835008 bytes)
 [dimocheck] total process-time 0.00 seconds

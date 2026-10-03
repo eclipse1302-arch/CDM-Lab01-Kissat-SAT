@@ -7,15 +7,15 @@ c found 'p cnf 695 1894' header
 c parsed CNF with 1894 added clauses
 c parsing original CNF took 0.00 seconds and needed 2 MB memory
 c reading proof from '../build/test-cnf-core-case-003.prf'
-c parsed original proof with 834 added and 253 deleted clauses
+c parsed original proof with 810 added and 149 deleted clauses
 c parsing original proof took 0.00 seconds and needed 2 MB memory
-c trimmed 1894 original clauses in CNF to 1720 clauses 91%
-c trimmed 834 added clauses in original proof to 563 clauses 68%
+c trimmed 1894 original clauses in CNF to 1724 clauses 91%
+c trimmed 810 added clauses in original proof to 608 clauses 75%
 c trimming proof took 0.00 seconds
 c backward checking proof took 0.00 seconds
 s VERIFIED
-c checked 563 clauses 138636 per second
-c resolved 6162 clauses 10.94 per checked clause
-c assigned 6687 literals 11.88 per checked clause
+c checked 608 clauses 156984 per second
+c resolved 7791 clauses 12.81 per checked clause
+c assigned 8525 literals 14.02 per checked clause
 c maximum memory usage of 2 MB
 c total time of 0.00 seconds

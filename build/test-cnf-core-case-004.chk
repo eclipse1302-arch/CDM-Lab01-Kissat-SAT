@@ -7,15 +7,15 @@ c found 'p cnf 60 157' header
 c parsed CNF with 157 added clauses
 c parsing original CNF took 0.00 seconds and needed 2 MB memory
 c reading proof from '../build/test-cnf-core-case-004.prf'
-c parsed original proof with 61 added and 3 deleted clauses
+c parsed original proof with 59 added and 3 deleted clauses
 c parsing original proof took 0.00 seconds and needed 2 MB memory
-c trimmed 157 original clauses in CNF to 128 clauses 82%
-c trimmed 61 added clauses in original proof to 46 clauses 75%
+c trimmed 157 original clauses in CNF to 136 clauses 87%
+c trimmed 59 added clauses in original proof to 51 clauses 86%
 c trimming proof took 0.00 seconds
 c backward checking proof took 0.00 seconds
 s VERIFIED
-c checked 46 clauses 15583 per second
-c resolved 331 clauses 7.20 per checked clause
-c assigned 314 literals 6.83 per checked clause
+c checked 51 clauses 17466 per second
+c resolved 408 clauses 8.00 per checked clause
+c assigned 402 literals 7.88 per checked clause
 c maximum memory usage of 2 MB
 c total time of 0.00 seconds

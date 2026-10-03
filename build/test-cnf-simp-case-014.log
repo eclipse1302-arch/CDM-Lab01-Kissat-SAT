@@ -1,14 +1,14 @@
 c [run-simplifier-and-extend-solution.sh] input '../test/cnf/case-014.cnf'
 c [run-simplifier-and-extend-solution.sh] options ''
 c [run-simplifier-and-extend-solution.sh] found '../build/../scripts/../build/coursesat'
-c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  -n -O1 -c 0 -o /tmp/run-simplifier-and-extend-solution-8077.out -e /tmp/run-simplifier-and-extend-solution-8077.ext ../test/cnf/case-014.cnf > /tmp/run-simplifier-and-extend-solution-8077.log
+c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  -n -O1 -c 0 -o /tmp/run-simplifier-and-extend-solution-34552.out -e /tmp/run-simplifier-and-extend-solution-34552.ext ../test/cnf/case-014.cnf > /tmp/run-simplifier-and-extend-solution-34552.log
 c [run-simplifier-and-extend-solution.sh] simplifier exit code '20'
-c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [simplifier],' /tmp/run-simplifier-and-extend-solution-8077.log
+c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [simplifier],' /tmp/run-simplifier-and-extend-solution-34552.log
 c [simplifier] UNSATISFIABLE
-c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  /tmp/run-simplifier-and-extend-solution-8077.out > /tmp/run-simplifier-and-extend-solution-8077.log
+c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  /tmp/run-simplifier-and-extend-solution-34552.out > /tmp/run-simplifier-and-extend-solution-34552.log
 c [run-simplifier-and-extend-solution.sh] solver exit code '20'
-c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [solver],' /tmp/run-simplifier-and-extend-solution-8077.log
+c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [solver],' /tmp/run-simplifier-and-extend-solution-34552.log
 c [solver] UNSATISFIABLE
 s UNSATISFIABLE
-c [run-simplifier-and-extend-solution.sh] rm -f /tmp/run-simplifier-and-extend-solution-8077*
+c [run-simplifier-and-extend-solution.sh] rm -f /tmp/run-simplifier-and-extend-solution-34552*
 c [run-simplifier-and-extend-solution.sh] exit 20

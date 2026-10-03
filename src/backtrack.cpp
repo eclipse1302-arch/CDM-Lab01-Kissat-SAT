@@ -149,10 +149,10 @@ void Internal::backtrack_without_updating_phases (int new_level) {
   LOG ("reassigned %d literals %.0f%%", reassigned,
        percent (reassigned, unassigned + reassigned));
 
-  if (propagated > j)
-    propagated = j;
-  if (propagated2 > j)
-    propagated2 = j;
+  if (propagated > assigned)
+    propagated = assigned;
+  if (propagated2 > assigned)
+    propagated2 = assigned;
   if (no_conflict_until > assigned)
     no_conflict_until = assigned;
 
