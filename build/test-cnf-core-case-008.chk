@@ -14,7 +14,7 @@ c trimmed 3 added clauses in original proof to 3 clauses 100%
 c trimming proof took 0.00 seconds
 c backward checking proof took 0.00 seconds
 s VERIFIED
-c checked 3 clauses 1166 per second
+c checked 3 clauses 1125 per second
 c resolved 10 clauses 3.33 per checked clause
 c assigned 6 literals 2.00 per checked clause
 c maximum memory usage of 2 MB

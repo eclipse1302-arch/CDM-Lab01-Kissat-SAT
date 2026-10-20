@@ -1,0 +1,9 @@
+version,instance,expected,result,status,time_median_sec,time_best_sec,repeats,decisions,conflicts,propagations,restarts,peak_memory_mb,seed
+baseline,public-01.cnf,SAT,SAT,ok,0.623,0.575,3,29254,15235,1207970,316,14,0
+baseline,public-02.cnf,SAT,SAT,ok,1.721,1.590,3,74745,28015,3539508,492,14,0
+baseline,public-03.cnf,SAT,SAT,ok,2.173,2.100,3,109820,28019,4711593,612,14,0
+baseline,public-04.cnf,UNSAT,UNSAT,ok,0.707,0.707,3,59776,51727,656132,1667,14,0
+baseline,public-05.cnf,UNSAT,UNSAT,ok,6.593,6.503,3,427834,370842,4822164,13361,14,0
+baseline,public-06.cnf,SAT,SAT,ok,0.030,0.028,3,0,0,0,0,14,0
+baseline,public-07.cnf,UNSAT,UNSAT,ok,14.065,14.053,3,1117378,873090,2640411,31910,18,0
+baseline,public-08.cnf,UNSAT,UNKNOWN,timeout,15.000,15.000,0,,,,,,0

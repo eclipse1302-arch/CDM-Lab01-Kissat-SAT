@@ -1,13 +1,13 @@
 c [run-simplifier-and-extend-solution.sh] input '../test/cnf/case-065.cnf'
 c [run-simplifier-and-extend-solution.sh] options ''
 c [run-simplifier-and-extend-solution.sh] found '../build/../scripts/../build/coursesat'
-c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  -n -O1 -c 0 -o /tmp/run-simplifier-and-extend-solution-35628.out -e /tmp/run-simplifier-and-extend-solution-35628.ext ../test/cnf/case-065.cnf > /tmp/run-simplifier-and-extend-solution-35628.log
+c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  -n -O1 -c 0 -o /tmp/run-simplifier-and-extend-solution-4091.out -e /tmp/run-simplifier-and-extend-solution-4091.ext ../test/cnf/case-065.cnf > /tmp/run-simplifier-and-extend-solution-4091.log
 c [run-simplifier-and-extend-solution.sh] simplifier exit code '10'
-c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [simplifier],' /tmp/run-simplifier-and-extend-solution-35628.log
+c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [simplifier],' /tmp/run-simplifier-and-extend-solution-4091.log
 c [simplifier] SATISFIABLE
-c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  /tmp/run-simplifier-and-extend-solution-35628.out > /tmp/run-simplifier-and-extend-solution-35628.log
+c [run-simplifier-and-extend-solution.sh] ../build/../scripts/../build/coursesat  /tmp/run-simplifier-and-extend-solution-4091.out > /tmp/run-simplifier-and-extend-solution-4091.log
 c [run-simplifier-and-extend-solution.sh] solver exit code '10'
-c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [solver],' /tmp/run-simplifier-and-extend-solution-35628.log
+c [run-simplifier-and-extend-solution.sh] sed -e 's,^[vs],c,' -e 's,^c,c [solver],' /tmp/run-simplifier-and-extend-solution-4091.log
 c [solver] SATISFIABLE
 c [solver] -1 -2 -3 4 -5 -6 -7 -8 -9 -10 -11 -12 -13 14 -15 -16 -17 -18 -19 -20 21 -22
 c [solver] 23 -24 -25 26 -27 -28 29 -30 -31 32 33 -34 -35 -36 -37 -38 -39 -40 -41 42
@@ -41,7 +41,7 @@ c [solver] -466 -467 -468 -469 -470 -471 -472 -473 -474 -475 -476 -477 -478 -479
 c [solver] -481 -482 -483 -484 -485 -486 -487 -488 -489 -490 -491 -492 -493 -494 -495
 c [solver] -496 -497 -498 -499 -500 -501 -502 -503 -504 -505 -506 -507 -508 -509 -510
 c [solver] -511 -512 -513 -514 -515 -516 -517 -518 -519 -520 -521 -522 -523 -524 -525 0
-c [run-simplifier-and-extend-solution.sh] ../build/../scripts/extend-solution.sh /tmp/run-simplifier-and-extend-solution-35628.log /tmp/run-simplifier-and-extend-solution-35628.ext
+c [run-simplifier-and-extend-solution.sh] ../build/../scripts/extend-solution.sh /tmp/run-simplifier-and-extend-solution-4091.log /tmp/run-simplifier-and-extend-solution-4091.ext
 s SATISFIABLE
 v 1
 v 2
@@ -570,5 +570,5 @@ v 524
 v 525
 v 0
 c [run-simplifier-and-extend-solution.sh] extender exit code 10
-c [run-simplifier-and-extend-solution.sh] rm -f /tmp/run-simplifier-and-extend-solution-35628*
+c [run-simplifier-and-extend-solution.sh] rm -f /tmp/run-simplifier-and-extend-solution-4091*
 c [run-simplifier-and-extend-solution.sh] exit 10

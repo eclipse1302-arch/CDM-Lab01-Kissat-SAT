@@ -1,0 +1,9 @@
+version,instance,expected,result,status,time_median_sec,time_best_sec,repeats,decisions,conflicts,propagations,restarts,peak_memory_mb,seed
+candidate_h2_probe0,public-01.cnf,SAT,SAT,ok,0.598,0.595,3,29254,15235,1207970,316,14,0
+candidate_h2_probe0,public-02.cnf,SAT,SAT,ok,1.675,1.659,3,74745,28015,3539508,492,14,0
+candidate_h2_probe0,public-03.cnf,SAT,SAT,ok,2.121,2.121,3,109820,28019,4711593,612,14,0
+candidate_h2_probe0,public-04.cnf,UNSAT,UNSAT,ok,0.570,0.566,3,47377,39177,472464,2209,14,0
+candidate_h2_probe0,public-05.cnf,UNSAT,UNSAT,ok,5.593,5.529,3,356888,309709,3982738,11752,14,0
+candidate_h2_probe0,public-06.cnf,SAT,SAT,ok,0.017,0.017,3,0,0,0,0,14,0
+candidate_h2_probe0,public-07.cnf,UNSAT,UNSAT,ok,4.897,4.477,3,642831,445850,1610179,17634,14,0
+candidate_h2_probe0,public-08.cnf,UNSAT,UNKNOWN,timeout,15.000,15.000,0,,,,,,0

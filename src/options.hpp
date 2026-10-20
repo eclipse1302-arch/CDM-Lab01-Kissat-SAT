@@ -161,7 +161,7 @@ OPTION( otfs,              1,  0,  1,0,0,1, "on-the-fly self subsumption") \
 OPTION( phase,             1,  0,  1,0,0,1, "initial phase") \
 OPTION( preprocessinit,  2e6,  0,2e9,2,0,1, "initial preprocessing base limit" ) \
 OPTION( preprocesslight,   0,  0,  1,0,1,1, "lightweight preprocessing" ) \
-OPTION( probe,             1,  0,  1,0,1,1, "failed literal probing" ) \
+OPTION( probe,             0,  0,  1,0,1,1, "failed literal probing" ) \
 OPTION( probeeffort,       8,  1,1e5,1,0,1, "relative efficiency per mille") \
 OPTION( probehbr,          1,  0,  1,0,0,1, "learn hyper binary clauses") \
 OPTION( probethresh,       0,  0,100,1,0,1, "delay if ticks smaller thresh*clauses") \

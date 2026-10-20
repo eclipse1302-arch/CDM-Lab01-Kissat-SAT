@@ -16,4 +16,4 @@
 [dimocheck] checked all 1342 clauses to be satisfied by model
 s MODEL_SATISFIES_FORMULA
 [dimocheck] maximum resident-set size 1.75 MB (1835008 bytes)
-[dimocheck] total process-time 0.00 seconds
+[dimocheck] total process-time 0.01 seconds
