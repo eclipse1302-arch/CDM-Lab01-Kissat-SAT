@@ -1,0 +1,19 @@
+[dimocheck] DiMoCheck DIMACS Model Checker
+[dimocheck] Copyright (c) 2025, Armin Biere, University of Freiburg
+[dimocheck] Version course build, bundled with CourseSAT course-2026
+[dimocheck] Compiled with 'C compiler; flags are shown by make part1_test'
+[dimocheck] parsing DIMACS '../test/cnf/case-069.cnf'
+[dimocheck] parsing in relaxed mode (without '--strict' nor '--pedantic')
+[dimocheck] parsed header 'p cnf 302 839'
+[dimocheck] parsed 839 clauses with maximum variable index '302'
+[dimocheck] parsing model '../build/test-cnf-simp-case-069.log'
+[dimocheck] parsing in relaxed mode (without '--strict' nor '--pedantic')
+[dimocheck] found 's SATISFIABLE' status line
+[dimocheck] parsed 302 and set 302 values of variables with maximum index '302'
+[dimocheck] set 126 positive 41.72% and 176 negative values 58.28%
+[dimocheck] checking model to satisfy DIMACS formula
+[dimocheck] partial model checking (without '--complete' nor '--pedantic')
+[dimocheck] checked all 839 clauses to be satisfied by model
+s MODEL_SATISFIES_FORMULA
+[dimocheck] maximum resident-set size 1.75 MB (1835008 bytes)
+[dimocheck] total process-time 0.00 seconds
