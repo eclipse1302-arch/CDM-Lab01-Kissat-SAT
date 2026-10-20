@@ -93,7 +93,7 @@ OPTION( elimdefcores,      1,  1,100,0,0,1, "number of unsat cores") \
 OPTION( elimdefticks,    2e5,  0,2e9,1,0,1, "kitten ticks limit") \
 OPTION( elimeffort,      1e3,  1,1e5,1,0,1, "relative efficiency per mille") \
 OPTION( elimequivs,        1,  0,  1,0,0,1, "find equivalence gates") \
-OPTION( elimint,         1e4,  1,2e9,0,0,1, "elimination interval") \
+OPTION( elimint,         2e3,  1,2e9,0,0,1, "elimination interval") \
 OPTION( elimites,          1,  0,  1,0,0,1, "find if-then-else gates") \
 OPTION( elimlimited,       1,  0,  1,0,0,1, "limit resolutions") \
 OPTION( elimmaxeff,      2e9,  0,2e9,1,0,1, "maximum elimination efficiency") \
@@ -161,7 +161,7 @@ OPTION( otfs,              1,  0,  1,0,0,1, "on-the-fly self subsumption") \
 OPTION( phase,             1,  0,  1,0,0,1, "initial phase") \
 OPTION( preprocessinit,  2e6,  0,2e9,2,0,1, "initial preprocessing base limit" ) \
 OPTION( preprocesslight,   0,  0,  1,0,1,1, "lightweight preprocessing" ) \
-OPTION( probe,             0,  0,  1,0,1,1, "failed literal probing" ) \
+OPTION( probe,             1,  0,  1,0,1,1, "failed literal probing" ) \
 OPTION( probeeffort,       8,  1,1e5,1,0,1, "relative efficiency per mille") \
 OPTION( probehbr,          1,  0,  1,0,0,1, "learn hyper binary clauses") \
 OPTION( probethresh,       0,  0,100,1,0,1, "delay if ticks smaller thresh*clauses") \
